@@ -1,4 +1,4 @@
-1)Arduino Board:  
+#1)Arduino Board:  
 
 Aurdino uno R3 
 
@@ -11,7 +11,7 @@ Aurdino uno R3
 
  
 
-2)Sensor 
+#2)Sensor 
 a) Ultrasonic Sensor (HC-SR04) 
 Purpose: To detect the presence of waste by measuring distance. 
 Working Principle: Emits ultrasonic waves and measures the time they take to reflect  back. 
@@ -25,7 +25,7 @@ Purpose: To divert waste to Dry or Wet bins based on sensor reading.
 
 
 
-Connections: 
+#3)Connections: 
 
 a)Ultrasonic Sensor (HC-SR04) 
 VCC → 5V on Arduino(via Breadboard Positive Power Rail) 
@@ -47,9 +47,9 @@ d)Power & Breadboard Setup
 Arduino 5V → Breadboard Positive Power Rail (Red) 
 Arduino GND → Breadboard Negative Power Rail (Blue) 
 
- 
 
-Output 
+#4)Output 
+
 The system detects an object within 15 cm. 
 It measures the humidity: 
 
